@@ -1,0 +1,7 @@
+To use ChatGPT like UI, go to ollama-webui and use below command
+
+>>> docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway --name ollama-webui --restart always ghcr.io/ollama-webui/ollama-webui:main
+
+To use Simple Web UI, go to ollama-ui and use below command
+
+>>> make
